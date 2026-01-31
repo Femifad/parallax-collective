@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olufemi Fadahunsi - Writer & Digital Marketing Specialist</title>
+    <meta name="description" content="Parallax Collective - A quirky digital marketing agency that blends tech and tradition to grow your business.">
+    <title>Parallax Collective - Digital Marketing Agency</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <div class="logo">Femi Fadahunsi</div>
+            <div class="logo">
+                <span class="logo-icon">◐</span>
+                <span class="logo-text">Parallax Collective</span>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#contact" class="nav-cta">Get Started</a></li>
             </ul>
         </div>
     </nav>
@@ -25,11 +34,140 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>Writer, Digital Marketer & <span class="highlight">Communications Specialist</span></h1>
-                <p class="hero-subtitle">Crafting compelling content and strategic communications for finance, tech, Web3, and media brands.</p>
+                <span class="hero-badge">Where Quirky Meets Results</span>
+                <h1>Marketing That Actually <span class="highlight">Makes Sense</span></h1>
+                <p class="hero-subtitle">We're the digital marketing agency that ditches the jargon and delivers real growth. Tech-savvy, tradition-loving, and refreshingly honest.</p>
                 <div class="cta-buttons">
-                    <a href="#work" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    <a href="#contact" class="btn btn-primary">Start Your Growth Journey</a>
+                    <a href="#services" class="btn btn-secondary">Explore Our Services</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">150+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">2.5M+</span>
+                        <span class="stat-label">Leads Generated</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg-pattern"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">What We Do</span>
+                <h2 class="section-title">Full-Service Digital Marketing That Gets Results</h2>
+                <p class="section-subtitle">From strategy to execution, we've got every corner of your digital presence covered.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3>Strategy Development</h3>
+                    <p>Custom marketing strategies built around your unique business goals, target audience, and budget. No cookie-cutter solutions here.</p>
+                    <ul class="service-features">
+                        <li>Market research & analysis</li>
+                        <li>Competitor insights</li>
+                        <li>Growth roadmapping</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔍</div>
+                    <h3>SEO Optimization</h3>
+                    <p>Get found by the right people at the right time. Our SEO strategies improve your rankings and drive qualified organic traffic.</p>
+                    <ul class="service-features">
+                        <li>Technical SEO audits</li>
+                        <li>On-page optimization</li>
+                        <li>Link building campaigns</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💰</div>
+                    <h3>PPC Campaigns</h3>
+                    <p>Maximize ROI with data-driven paid search and display campaigns that turn clicks into customers.</p>
+                    <ul class="service-features">
+                        <li>Google Ads management</li>
+                        <li>Display advertising</li>
+                        <li>Retargeting campaigns</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Social Media Marketing</h3>
+                    <p>Build a community that loves your brand. Strategic social content that engages, entertains, and converts.</p>
+                    <ul class="service-features">
+                        <li>Content calendar planning</li>
+                        <li>Community management</li>
+                        <li>Paid social campaigns</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✍️</div>
+                    <h3>Content Marketing</h3>
+                    <p>Compelling content that positions you as the industry expert and keeps your audience coming back for more.</p>
+                    <ul class="service-features">
+                        <li>Blog writing & management</li>
+                        <li>Video content production</li>
+                        <li>Infographics & visual content</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📧</div>
+                    <h3>Email Marketing</h3>
+                    <p>Nurture leads and retain customers with email campaigns that people actually want to open and read.</p>
+                    <ul class="service-features">
+                        <li>Newsletter design & management</li>
+                        <li>Automated drip campaigns</li>
+                        <li>List segmentation</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Design & Branding</h3>
+                    <p>Make a lasting impression with visual identity and design that captures your brand's personality.</p>
+                    <ul class="service-features">
+                        <li>Logo & brand identity</li>
+                        <li>Marketing collateral</li>
+                        <li>Brand guidelines</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📈</div>
+                    <h3>Conversion Rate Optimization</h3>
+                    <p>Turn more visitors into customers with strategic CRO testing and optimization.</p>
+                    <ul class="service-features">
+                        <li>A/B testing</li>
+                        <li>User behavior analysis</li>
+                        <li>Landing page optimization</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Analytics & Reporting</h3>
+                    <p>Clear, actionable insights from your marketing data. Know what's working and what needs tweaking.</p>
+                    <ul class="service-features">
+                        <li>Campaign performance tracking</li>
+                        <li>Custom dashboards</li>
+                        <li>Monthly strategy reports</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏪</div>
+                    <h3>Google My Business</h3>
+                    <p>Dominate local search with optimized Google My Business profiles that attract nearby customers.</p>
+                    <ul class="service-features">
+                        <li>Profile optimization</li>
+                        <li>Review management</li>
+                        <li>Local SEO integration</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -38,92 +176,91 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>I'm Olufemi Fadahunsi, a writer and digital marketing specialist with 7 years of experience in web content publishing and app copywriting.</p>
-                    <p>My work spans across diverse industries including finance, e-commerce, tech, Web3, and media. I specialize in creating content that not only engages but converts, helping brands tell their stories effectively.</p>
-                    <p>As a contributor at Zikoko, West Africa's leading youth publication, I've honed my skills in feature storytelling, interviews, and creating content that resonates with modern audiences.</p>
+                    <span class="section-badge">Who We Are</span>
+                    <h2>Marketing Nerds With a Sense of Humor</h2>
+                    <p>We're Parallax Collective, a customer-obsessed digital marketing agency that believes growing your business doesn't have to be boring or complicated.</p>
+                    <p>Our secret sauce? We mix cutting-edge technology with tried-and-true traditional marketing methods. Plus, we actually explain what we're doing in plain English (revolutionary, we know).</p>
+                    <p>Whether you're looking to improve your online presence, increase brand awareness, or drive more leads and conversions, we're here to help you grow.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span>Customer-first approach</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span>Tech + tradition blend</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span>Quirky but professional</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span>Results-driven always</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
+    <!-- Process Section -->
+    <section id="process" class="process">
         <div class="container">
-            <h2 class="section-title">What I Do</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">✍️</div>
-                    <h3>Copywriting</h3>
-                    <p>Persuasive ad copy and marketing content that drives conversions and builds brand voice.</p>
+            <div class="section-header">
+                <span class="section-badge">How We Work</span>
+                <h2 class="section-title">A Simple, Transparent Process</h2>
+                <p class="section-subtitle">No smoke and mirrors. Just clear steps to get you from where you are to where you want to be.</p>
+            </div>
+            <div class="process-steps">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <h3>Discovery Call</h3>
+                    <p>We learn about your business, goals, challenges, and what success looks like for you.</p>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">📱</div>
-                    <h3>UX Writing</h3>
-                    <p>User-centered microcopy and interface content that enhances product experiences.</p>
+                <div class="step-arrow">→</div>
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <h3>Strategy Session</h3>
+                    <p>We craft a custom marketing strategy tailored to your unique needs and budget.</p>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">📝</div>
-                    <h3>Content Strategy</h3>
-                    <p>Strategic content planning and creation that aligns with business goals.</p>
+                <div class="step-arrow">→</div>
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <h3>Execution & Launch</h3>
+                    <p>Our team gets to work implementing campaigns, content, and optimization strategies.</p>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">✏️</div>
-                    <h3>Writing & Editing</h3>
-                    <p>High-quality articles, blog posts, and editorial content across multiple industries.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">💬</div>
-                    <h3>Communications</h3>
-                    <p>Strategic communications planning and execution for brands and organizations.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">📖</div>
-                    <h3>Feature Storytelling</h3>
-                    <p>Compelling long-form stories and interviews that captivate readers.</p>
+                <div class="step-arrow">→</div>
+                <div class="step-card">
+                    <div class="step-number">04</div>
+                    <h3>Optimize & Scale</h3>
+                    <p>We track results, refine what works, and scale your success continuously.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Work Section -->
-    <section id="work" class="work">
+    <!-- CTA Section -->
+    <section class="cta-section">
         <div class="container">
-            <h2 class="section-title">Featured Work</h2>
-            <div class="work-grid">
-                <div class="work-card">
-                    <div class="work-content">
-                        <h3>Zikoko</h3>
-                        <p class="work-category">Feature Stories & Interviews</p>
-                        <p>Contributing writer for West Africa's leading youth publication, creating engaging feature stories and conducting interviews.</p>
-                        <a href="https://www.zikoko.com/author/femi/" target="_blank" class="work-link">View Articles →</a>
-                    </div>
-                </div>
-                <div class="work-card">
-                    <div class="work-content">
-                        <h3>Norebase</h3>
-                        <p class="work-category">UX Writing</p>
-                        <p>Crafted user-friendly microcopy and interface content to enhance the platform experience.</p>
-                    </div>
-                </div>
-                <div class="work-card">
-                    <div class="work-content">
-                        <h3>Ad Copywriting Portfolio</h3>
-                        <p class="work-category">Video Portfolio</p>
-                        <p>Showcase of advertising copywriting projects across various industries.</p>
-                        <a href="https://youtube.com" target="_blank" class="work-link">Watch Portfolio →</a>
-                    </div>
-                </div>
-                <div class="work-card">
-                    <div class="work-content">
-                        <h3>Medium Blog</h3>
-                        <p class="work-category">Thought Leadership</p>
-                        <p>Articles on marketing, writing, and digital communications.</p>
-                        <a href="https://medium.com/@femiexe" target="_blank" class="work-link">Read More →</a>
-                    </div>
-                </div>
+            <div class="cta-content">
+                <h2>Ready to Grow Your Business?</h2>
+                <p>Let's chat about how we can help you dominate your market. First consultation is free!</p>
+                <a href="#contact" class="btn btn-primary btn-large">Book Your Free Strategy Call</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Referral Section -->
+    <section class="referral">
+        <div class="container">
+            <div class="referral-content">
+                <span class="referral-icon">🎁</span>
+                <h2>Love What We Do? Get Rewarded!</h2>
+                <p>Refer a business to us and get a free service when they sign up. Because good marketing should be shared.</p>
+                <a href="#contact" class="btn btn-secondary">Learn About Our Referral Program</a>
             </div>
         </div>
     </section>
@@ -131,16 +268,71 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Let's Work Together</h2>
-            <div class="contact-content">
-                <p class="contact-intro">Interested in collaborating or have a project in mind? I'd love to hear from you.</p>
-                <div class="contact-methods">
-                    <a href="mailto:olufemifad@gmail.com" class="btn btn-primary">Email Me</a>
-                    <div class="social-links">
-                        <a href="https://twitter.com/femiexe" target="_blank" class="social-link">Twitter</a>
-                        <a href="https://mainstack.com/femiexe" target="_blank" class="social-link">Mainstack</a>
-                        <a href="https://medium.com/@femiexe" target="_blank" class="social-link">Medium</a>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <span class="section-badge">Let's Talk</span>
+                    <h2>Start Your Marketing Journey</h2>
+                    <p>Ready to take your business to the next level? Let's discuss how we can help you achieve your marketing goals and drive real growth.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <h4>Email Us</h4>
+                                <a href="mailto:hello@parallaxcollective.com">hello@parallaxcollective.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">💬</span>
+                            <div>
+                                <h4>Quick Response</h4>
+                                <p>We typically respond within 24 hours</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🎯</span>
+                            <div>
+                                <h4>Free Consultation</h4>
+                                <p>First strategy call is on us</p>
+                            </div>
+                        </div>
                     </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Interested In</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="strategy">Strategy Development</option>
+                                <option value="seo">SEO Optimization</option>
+                                <option value="ppc">PPC Campaigns</option>
+                                <option value="social">Social Media Marketing</option>
+                                <option value="content">Content Marketing</option>
+                                <option value="email">Email Marketing</option>
+                                <option value="design">Design & Branding</option>
+                                <option value="cro">Conversion Optimization</option>
+                                <option value="full-service">Full-Service Marketing</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell Us About Your Project</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -149,7 +341,45 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Olufemi Fadahunsi. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon">◐</span>
+                        <span class="logo-text">Parallax Collective</span>
+                    </div>
+                    <p>Digital marketing that makes sense.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">SEO</a></li>
+                            <li><a href="#services">PPC</a></li>
+                            <li><a href="#services">Social Media</a></li>
+                            <li><a href="#services">Content Marketing</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#process">Our Process</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="mailto:hello@parallaxcollective.com">Email</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Parallax Collective. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 
